@@ -1,0 +1,29 @@
+{
+  "name": "mukami",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "has-values": "^1.0.0",
+    "is-glob": "^4.0.1",
+    "is-number": "^3.0.0",
+    "is-windows": "^1.0.2",
+    "is-wsl": "^1.1.0",
+    "isarray": "^1.0.0",
+    "live-server": "^1.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fairhmukami/foody.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fairhmukami/foody/issues"
+  },
+  "homepage": "https://github.com/fairhmukami/foody#readme"
+}
