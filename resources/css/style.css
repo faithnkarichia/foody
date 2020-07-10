@@ -78,6 +78,7 @@ h3{
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    margin-bottom: 30px;
 }
 .box p{
     font-size: 90%;
@@ -189,4 +190,40 @@ header{
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22; 
 
+}
+
+/*---------------------------------------*/
+/*section 2 meals showcase*/
+/*--------------------------------------*/
+.section-meals{
+    padding: 0;
+}
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+
+}
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+.meal-photo img{
+    opacity: 0.7;
+    height: auto;
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1.0;
 }
