@@ -372,6 +372,10 @@ cite img{
 /**section plans*/
 .section-plans{
     background-color:#f4f4f4 ;
+    margin-top: 8%;
+}
+.section-form h2{
+    margin-top: 8%;
 }
 .plan-box{
     background-color: white;
@@ -445,11 +449,13 @@ input[type=checkbox]{
     footer{
         background-color: #333;
         padding: 50px;
+        margin-top: 8%;
 
     }
     .footer-nav{
         list-style: none;
         float: left;
+        
     }
     .social-links{
         list-style: none;
